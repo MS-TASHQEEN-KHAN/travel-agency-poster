@@ -1,0 +1,109 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+html,body{height: 100%;
+width: 100%;
+background-color: orange;}
+
+.main{width: 60%;
+height: 100%;
+background-color: white;
+align-items: center;
+margin: 0% 20%;
+position: relative;
+box-shadow: 20px 20px 20px 20px wheat, -20px -20px 20px 20px wheat,20px -20px 20px 20px wheat, 20px 20px 20px -20px wheat;}
+
+.main .box1{width: 30%;
+height: 50%;
+background-color: orange;}
+
+.main .box2{width: 30%;
+height: 50%;
+background-color: orange;
+position: absolute;
+left: 70%;
+top: 0%;}
+
+.main>h1{font-size: 60px;
+font-weight: 700;
+position: absolute;
+top: 1%;
+left: 34%;
+text-decoration: underline;}
+
+.main>img{width: 70%;
+    height: 32%;
+position: absolute;
+top: 9%;
+left: 15%;
+border: 7px solid white;
+border-radius: 40px;}
+
+.main>h2{font-size: 40px;
+font-weight: 700;
+position: absolute;
+top: 41.5%;
+left: 32%;
+background-color: skyblue;
+color: white;
+padding: 15px 30px;
+border-radius: 50px;}
+
+.main>h3{text-align: center;
+font-size: 60px;
+font-weight: 700;
+text-decoration: underline;
+margin-top: 50px;
+text-shadow: 10px 10px 10px orange;
+color: rgb(221, 61, 2);}
+
+.main>p{text-align: center;
+font-size: 30px;
+font-weight: 500;
+margin-top: 10px;}
+
+.main>h4{font-size: 50px;
+font-weight: 700;
+margin-top: 10px;
+margin-bottom: 50px;
+text-align: center;
+color: rgb(221, 61, 2);}
+
+.main .content{width: 100%;
+display: flex;
+justify-content: space-around;
+align-items: center;}
+
+.content .left{width: 33%;
+text-align: center;}
+
+.content .left>h5{font-size: 30px;
+font-weight: bolder;
+color: rgb(221, 61, 2);}
+
+.content .left>p{font-size: 30px;}
+
+.content .mid{width: 33%;
+text-align: center;}
+
+.content .mid>button{font-size: 30px;
+font-weight: bolder;
+padding: 15px 30px;
+border: 5px solid rgb(221, 61, 2);
+color: rgb(221, 61, 2);
+border-radius: 50px;
+transition: 1s all;}
+
+.content .mid>button:hover{border: 5px solid white;
+background-color: rgb(221, 61, 2);
+color: white;}
+
+.content .right{width: 33%;
+text-align: center;}
+
+.content .right>h5{font-size: 30px;
+font-weight: bolder;
+color: rgb(221, 61, 2);}
+    
+.content .right>p{font-size: 30px;}
